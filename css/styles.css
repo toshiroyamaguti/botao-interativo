@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    background-color: rgb(178, 238, 231);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.botao-um {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #28a745;
+    color: white;
+    transition: all 0.3s ease;
+}
+
+.botao-um:active {
+    background-color: #0b4016;
+}
+
+.botao-dois {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #ff2020;
+    color: white;
+    transition: all 0.3s ease;
+}
+
+.botao-dois:active {
+    background-color: #8a0000;
+}
+
+.oculto {
+    display: none;
+    color: red;
+    font-size: 18px;
+    margin-top: 10px;
+}
